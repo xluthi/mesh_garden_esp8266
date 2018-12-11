@@ -1,0 +1,26 @@
+# Do not store Device tokens and device_id
+my_config.h
+
+# Generic rule: do not store any file with "secret" in its filename
+*secret*
+
+
+
+### Vim ###
+# Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+
+# Temporary
+.netrwhist
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
+
