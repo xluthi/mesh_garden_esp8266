@@ -4,6 +4,8 @@ my_config.h
 # Generic rule: do not store any file with "secret" in its filename
 *secret*
 
+# Do not store exported compiled sketches
+*.bin
 
 
 ### Vim ###
